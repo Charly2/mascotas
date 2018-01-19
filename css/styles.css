@@ -1430,7 +1430,7 @@ section.precios .tablas {
     left: 0;
     top: 0;
     z-index: -1;
-    background: url("/img/opinion.jpg");
+    background: url("../img/opinion.jpg");
     background-size: 70%;
     background-position: -10% 10%; }
   .opiniones .opinion {
