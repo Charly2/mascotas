@@ -1,0 +1,65 @@
+doctype html
+html(lang="es")
+  head
+    title CharlyNetwork
+    meta(name='viewport', content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet", href="css/styles.css")
+    meta(name="language" content="es")
+    meta(name="content-language" content="es")
+    meta(name="theme-color" content="#fff")
+    link(rel="stylesheet", href="css/icons.css")
+    //link(href="https://file.myfontastic.com/jGBwKFM2zmBqneNojbV8p5/icons.css" rel="stylesheet")
+  body
+    header.ed-container#inicio
+      .ed-item.s-80.l-40
+        include block-logo
+      .ed-item.l-60.main-end.contactos.cross-center
+        .ed-container.container
+          .ed-item.s-10.contacto
+          .ed-item.s-30.contacto
+            .icon.icon-home
+            p Llamanos a
+            span 01 22 1515 1553
+          .ed-item.s-30.contacto
+            .icon.icon-home
+            p Llamanos a
+            span 01 22 1515 1553
+          .ed-item.s-30.contacto
+            .icon.icon-home
+            p Llamanos a
+            span 01 22 1515 1553
+      .ed-item.s-20.cross-center.main-end
+        .nav-toggle#main-nav-toggle
+    .nav-container#nav-container
+      .ed-container
+        .ed-item.l-70
+          nav.main-nav#main-nav
+            include block-menu
+        .ed-item.l-30.cross-center.main-end.sociales_btn
+           a(href="#")
+            .icon.icon-facebook
+           a(href="#")
+            .icon.icon-twitter
+           a(href="#")
+            .icon.icon-youtube-play
+           a(href="#")
+            .icon.icon-instagram
+    block banner
+    block about
+    block skills
+    block servicios
+    block galeria
+    block precios
+    block opiniones
+    block post
+    block fotter
+    .top#top
+      a( data-scroll data-options='{ "easing": "easeOutQuad" }'  href="#inicio") 
+        .icon-angle-up
+    script(src='js/ed-grid.js')
+    script(src="js/jquery-3.2.1.min.js")
+    script(src="js/smooth-scroll.js")
+    script(src="js/lightbox.min.js")
+    script(src='js/scripts.js')
+    
+

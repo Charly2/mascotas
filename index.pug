@@ -1,0 +1,253 @@
+extends templates/template
+
+block banner
+  .main-banner
+    .ed-container
+      .ed-item.banner_contenido
+            h2.main-banner__title
+              span The Kind of Care
+              span Your Pets Deserve
+            .main-banner__content
+              | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas feugiat dolor.
+block about
+  section.about#about
+    .ed-container
+      .ed-item.m-40.img
+        img(src="img/clinica.jpg", alt="")
+      .ed-item.m-60.text.cross-center
+        h2 About 
+          span Clinic
+        p.slogan This is the best
+        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel blanditiis voluptas magni minima veritatis debitis officiis possimus beatae ipsa voluptates ipsum error corrupti reiciendis fuga, at excepturi. Cum, beatae sunt.
+        a(href="#") Contant Us
+block skills
+  section.skills
+    .skills_container.ed-container
+      .ed-item.m-25.l-25.s-50.skill
+        .icon.icon-syringe
+        span 540
+        p algo sobre
+      .ed-item.m-25.l-25.s-50.skill
+        .icon.icon-heartbeat
+        span 540
+        p algo sobre
+      .ed-item.m-25.l-25.s-50.skill
+        .icon.icon-home
+        span 540
+        p algo sobre
+      .ed-item.m-25.l-25.s-50.skill
+        .icon.icon-trophy
+        span 540
+        p algo sobre
+block servicios
+  section.servicios#servicios
+    .ed-container.titulo
+      .ed-item.container
+        h2 Our 
+            span Services & Procedures
+        p.slogan This is the best
+    .ed-container
+      .serviciosItem
+        .ed-item.servicio
+          .titulos
+            .icon.icon-home
+            h2 Anesthetic 
+              span Monitoring
+          p Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quaerat suscipit recusandae quos similique inventore possimus in facilis unde quia voluptatum.
+        .ed-item.servicio
+          .titulos
+            .icon.icon-home
+            h2 Anesthetic 
+              span Monitoring
+          p Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quaerat suscipit recusandae quos similique inventore possimus in facilis unde quia voluptatum.
+        .ed-item.servicio
+          .titulos
+            .icon.icon-home
+            h2 Anesthetic 
+              span Monitoring
+          p Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quaerat suscipit recusandae quos similique inventore possimus in facilis unde quia voluptatum.
+        .ed-item.servicio
+          .titulos
+            .icon.icon-home
+            h2 Anesthetic 
+              span Monitoring
+          p Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quaerat suscipit recusandae quos similique inventore possimus in facilis unde quia voluptatum.
+        .ed-item.servicio
+          .titulos
+            .icon.icon-home
+            h2 Anesthetic 
+              span Monitoring
+          p Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quaerat suscipit recusandae quos similique inventore possimus in facilis unde quia voluptatum.
+        .ed-item.servicio
+          .titulos
+            .icon.icon-home
+            h2 Anesthetic 
+              span Monitoring
+          p Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quaerat suscipit recusandae quos similique inventore possimus in facilis unde quia voluptatum.
+
+block galeria
+  section.galeria#galeria
+    .tituloGaleria
+      .ed-container
+        .ed-item.categorias
+          a(href="#") All
+          a(href="#") Services
+          a(href="#") Items
+          a(href="#") Gruops
+          a(href="#") Rides
+          a(href="#") Offset
+    .itemsGaleria
+      .containerGaleria
+        .itemGaleria
+          a(class="" href="img/galeria/1.jpg" data-lightbox="example-set" data-title="")
+            i(class="fa fa-search-plus" aria-hidden="true")
+            img(class="" src="img/galeria/1.jpg" alt="")
+        .itemGaleria
+          img(src="img/galeria/1.jpg", alt="")
+        .itemGaleria
+          img(src="img/galeria/1.jpg", alt="")
+        .itemGaleria
+          img(src="img/galeria/1.jpg", alt="")
+        .itemGaleria
+          img(src="img/galeria/1.jpg", alt="")
+        .itemGaleria
+          img(src="img/galeria/1.jpg", alt="")
+        .itemGaleria
+          img(src="img/galeria/1.jpg", alt="")
+        .itemGaleria
+          img(src="img/galeria/1.jpg", alt="")
+
+block precios
+  section.precios#precios
+    .ed-container.titulo
+      .ed-item.container
+        h2 Precing 
+            span Tables
+        p.slogan This is the best
+    .ed-container.tablas
+      .tabla.m-30
+        .tituloTabla
+          h2 Anesthetic 
+            span Monitoring
+        .ed-item.bodyTabla
+          h3 00.00
+          span EveryThing
+          ul 
+            li Ex minim
+            li Adispicing
+            li Non Officia
+            li Turdancken
+          a Order Now
+      .tabla.m-30
+        .tituloTabla
+          h2 Anesthetic 
+            span Monitoring
+        .ed-item.bodyTabla
+          h3 09.99
+          span EveryThing
+          ul 
+            li Ex minim
+            li Adispicing
+            li Non Officia
+            li Turdancken
+          a Order Now
+      .tabla.m-30
+        .tituloTabla
+          h2 Anesthetic 
+            span Monitoring
+        .ed-item.bodyTabla
+          h3 99.99
+          span EveryThing
+          ul 
+            li Ex minim
+            li Adispicing
+            li Non Officia
+            li Turdancken
+          a Order Now
+
+block opiniones
+  .opiniones
+    .ed-container 
+      .ed-item.opinion
+          .tituloOpinion
+            h2 What 
+              span Clients Say
+          p.slogan Lorem ipsum dolor dolor
+          img(src="img/foto.jpg", alt="").imgOpinion
+          p.bodyOpinion
+            | Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate odit aut magni, illo quidem dolorum, sequi ipsa unde doloribus vero dignissimos, nobis veritatis ullam nulla aliquam
+          h5.nombreOpinion Juan Carlos 
+            span Sanchez Trejo
+          p.puestoOpinion Programador
+          
+block post
+  section.blog#blog
+    .ed-container.titulo
+      h2 Recebt
+          span Post
+      p.slogan This is the best
+    .ed-container.posts
+      .post.m-30
+        .imgPost
+        .ed-item.containerPost
+          p.slogan This is the best
+          h2 Lorem ipsum dolor 
+          p.body "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure doloribus esse dicta tenetur Iure doloribus esse dicta tenetur" 
+          a Ver mas
+      .post.m-30
+        .imgPost
+        .ed-item.containerPost
+          p.slogan This is the best
+          h2 Lorem ipsum dolor 
+          p.body "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure doloribus esse dicta tenetur Iure doloribus esse dicta tenetur" 
+          a Ver mas   
+      .post.m-30
+        .imgPost
+        .ed-item.containerPost
+          p.slogan This is the best
+          h2 Lorem ipsum dolor
+          p.body "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure doloribus esse dicta tenetur Iure doloribus esse dicta tenetur" 
+          a Ver mas 
+        
+block fotter
+  .fotter
+    .container 
+      .fotterContainer
+        .ed-team.fotterItem.logoF
+          .logo
+            h2 
+              span C
+              | harly
+              span N
+              | etwork
+          p Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam consectetur, maxime minima accusantium neque rem dolorem.
+          .botonesFo
+            a(href="#")
+              .icon.icon-facebook
+            a(href="#")
+              .icon.icon-twitter
+            a(href="#")
+              .icon.icon-youtube-play
+            a(href="#")
+              .icon.icon-instagram
+        .ed-team.fotterItem.contactoF
+            .titulo
+              h2 Precing 
+                span Tables
+            .conta
+              .icon.icon-youtube-play
+              span 2078 Nancy México DF
+            .conta
+                .icon.icon-youtube-play
+                span 01 800 1247 5415 
+            .conta
+                .icon.icon-youtube-play
+                span 08:00 - 21: 00 
+        .ed-team.fotterItem.noticiaF
+          .titulo
+              h2 Precing 
+                span Tables
+          .noticia
+            h2 La ultima noticias
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam rem sequi voluptates, dolorum earum dolorem, Quibusdam rem sequi voluptates, dolorum earum dolorem. 
+            
